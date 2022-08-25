@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-around m-5">
+    <button type="button" class="btn btn-outline-info" (click)="carousel(0)">
+        &#60;
+    </button>
+    <div>
+        <img *ngIf="image === 1" src="./assets/banner/banner1.jpeg" height="400" />
+        <img *ngIf="image === 2" src="./assets/banner/banner2.jpeg" height="400" />
+    </div>
+    <button type="button" class="btn btn-outline-info" (click)="carousel(1)">
+     &#62; 
+    </button>
+    
+</div>
